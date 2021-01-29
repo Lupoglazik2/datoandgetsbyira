@@ -19,6 +19,7 @@ const IndexPage = ({ data }) => (
               </h6>
               <div className="card__description">
                 <p>{work.excerpt}</p>
+                <p>{work.shop2}</p>
               </div>
             </figcaption>
           </figure>
