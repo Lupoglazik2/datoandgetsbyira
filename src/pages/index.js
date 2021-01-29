@@ -39,6 +39,7 @@ export const query = graphql`
           title
           slug
           excerpt
+          shop2
           coverImage {
             fluid(maxWidth: 450, imgixParams: { fm: "jpg", auto: "compress" }) {
               ...GatsbyDatoCmsSizes
